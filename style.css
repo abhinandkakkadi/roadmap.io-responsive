@@ -103,6 +103,11 @@ body {
   border: 1px solid black;
   display: inline-block;
   border-radius: 5px;
+  cursor: pointer;
+}
+.star-container:hover {
+  background-color: black;
+  color: #ced4da;
 }
 
 /* FOOTER 1 */
@@ -143,7 +148,7 @@ body {
 
 /* QUIERRIES */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   html {
     font-size: 8px;
   }
@@ -170,3 +175,5 @@ body {
   margin-left: auto;
   font-size: 0.6rem;
 }
+
+/* open source */
